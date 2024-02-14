@@ -7,7 +7,7 @@ def skibidi(x,y):
         smaller = y
     else:
         smaller = x
-    for i in range(1, x+1):
+    for i in range(1, smaller+1):
         if (x % i == 0) and (y % i == 0):
             hcf = i
     return(hcf)
