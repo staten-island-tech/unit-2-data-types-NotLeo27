@@ -2,7 +2,7 @@ x = int(input('First number'))
 y = int(input('Second number'))
 
 
-def skibidi(x,y):
+def GCF(x,y):
     if x > y:
         smaller = y
     else:
@@ -12,4 +12,4 @@ def skibidi(x,y):
             hcf = i
     return(hcf)
 
-print(skibidi(x,y))
+print(GCF(x,y))
